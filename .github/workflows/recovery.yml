@@ -9,8 +9,7 @@ jobs:
     steps:
        - name: Init the System
          uses: actions/checkout@master
-         
-      -  name: Cleanup
+       - name: Clean up
          uses: rokibhasansagar/slimhub_actions@main
 
        - name: setting repo
